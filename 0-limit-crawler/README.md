@@ -8,9 +8,14 @@ Crawl() must be called concurrently)
 
 ## Hint
 
-This exercise can be solved in 3 lines only. If you can't do
-it, have a look at this:
-https://go.dev/wiki/RateLimiting
+- This exercise can be solved in 3 lines only. If you can't do
+	it, have a look at this:
+	https://go.dev/wiki/RateLimiting
+
+- Make sure you are aware of the library time [Article](https://freedium.cfd/https://53jk1.medium.com/understanding-time-management-in-go-timer-ticker-and-after-7b7aae0afb85)
+	- time.Ticker
+	- time.Timer
+	- time.After
 
 ## Test your solution
 
